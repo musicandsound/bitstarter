@@ -5,7 +5,6 @@ var app = express.createServer(express.logger());
 
 
 
-var myBuf = new Buffer()
 
 
 app.get('/', function(request, response) {
