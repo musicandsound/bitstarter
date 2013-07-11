@@ -13,7 +13,7 @@ var fs = require('fs');
 var myBuf = new Buffer(fs.readFileSync('index.html'));
 
 
-response.send(myBuf.toString(myBuf));
+response.send(myBuf.toString();
 });
 
 var port = process.env.PORT || 5000;
